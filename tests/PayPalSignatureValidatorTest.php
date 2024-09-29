@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Tests;
+namespace Tommmoe\PayPalWebhooks\Tests;
 
-use Ankurk91\PayPalWebhooks\PayPalSignatureValidator;
-use Ankurk91\PayPalWebhooks\PayPalWebhookConfig;
-use Ankurk91\PayPalWebhooks\Tests\Factory\PaypalRequestFactory;
+use Tommmoe\PayPalWebhooks\PayPalSignatureValidator;
+use Tommmoe\PayPalWebhooks\PayPalWebhookConfig;
+use Tommmoe\PayPalWebhooks\Tests\Factory\PaypalRequestFactory;
 use Illuminate\Support\Facades\Http;
 use Spatie\WebhookClient\WebhookConfig;
 

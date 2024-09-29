@@ -1,5 +1,5 @@
 {
-  "name": "ankurk91/laravel-paypal-webhooks",
+  "name": "tommmoe/laravel-paypal-webhooks",
   "description": "Handle PayPal webhooks in Laravel php framework",
   "keywords": [
     "laravel",
@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ankurk91\\PayPalWebhooks\\": "src"
+      "Tommmoe\\PayPalWebhooks\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ankurk91\\PayPalWebhooks\\Tests\\": "tests/"
+      "Tommmoe\\PayPalWebhooks\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -49,7 +49,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ankurk91\\PayPalWebhooks\\PayPalWebhooksServiceProvider"
+        "Tommmoe\\PayPalWebhooks\\PayPalWebhooksServiceProvider"
       ]
     }
   },

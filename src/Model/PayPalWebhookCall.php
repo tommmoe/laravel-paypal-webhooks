@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Model;
+namespace Tommmoe\PayPalWebhooks\Model;
 
-use Ankurk91\PayPalWebhooks\Exception\WebhookFailed;
+use Tommmoe\PayPalWebhooks\Exception\WebhookFailed;
 use Illuminate\Http\Request;
 use JsonException;
 use Spatie\WebhookClient\Models\WebhookCall;

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Tests;
+namespace Tommmoe\PayPalWebhooks\Tests;
 
-use Ankurk91\PayPalWebhooks\Exception\WebhookFailed;
-use Ankurk91\PayPalWebhooks\Tests\Factory\PayPalWebhookFactory;
-use Ankurk91\PayPalWebhooks\Tests\Fixtures\TestHandlerJob;
+use Tommmoe\PayPalWebhooks\Exception\WebhookFailed;
+use Tommmoe\PayPalWebhooks\Tests\Factory\PayPalWebhookFactory;
+use Tommmoe\PayPalWebhooks\Tests\Fixtures\TestHandlerJob;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Support\Facades\Bus;

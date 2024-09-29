@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Tests\Factory;
+namespace Tommmoe\PayPalWebhooks\Tests\Factory;
 
 class PayPalWebhookFactory
 {

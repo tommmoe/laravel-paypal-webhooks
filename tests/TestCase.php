@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Tests;
+namespace Tommmoe\PayPalWebhooks\Tests;
 
-use Ankurk91\PayPalWebhooks\PayPalWebhooksServiceProvider;
+use Tommmoe\PayPalWebhooks\PayPalWebhooksServiceProvider;
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 

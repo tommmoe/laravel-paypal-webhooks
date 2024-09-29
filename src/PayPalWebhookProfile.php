@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks;
+namespace Tommmoe\PayPalWebhooks;
 
-use Ankurk91\PayPalWebhooks\Model\PayPalWebhookCall;
+use Tommmoe\PayPalWebhooks\Model\PayPalWebhookCall;
 use Illuminate\Http\Request;
 use Spatie\WebhookClient\WebhookProfile\WebhookProfile;
 

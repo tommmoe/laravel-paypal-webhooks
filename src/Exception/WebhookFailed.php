@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Exception;
+namespace Tommmoe\PayPalWebhooks\Exception;
 
 use Exception;
 use JsonException;

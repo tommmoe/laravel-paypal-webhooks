@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Tests\Fixtures;
+namespace Tommmoe\PayPalWebhooks\Tests\Fixtures;
 
 use Spatie\WebhookClient\Models\WebhookCall;
 

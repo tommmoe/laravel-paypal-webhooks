@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks;
+namespace Tommmoe\PayPalWebhooks;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -22,7 +22,7 @@ class PayPalWebhooksServiceProvider extends ServiceProvider
         $this->mergeConfigFrom($this->getConfigPath(), 'paypal-webhooks');
 
         Route::macro('paypalWebhooks', function (string $url) {
-            return Route::post($url, '\Ankurk91\PayPalWebhooks\Http\Controllers\PayPalWebhooksController')
+            return Route::post($url, '\Tommmoe\PayPalWebhooks\Http\Controllers\PayPalWebhooksController')
                 ->name('paypalWebhooks');
         });
     }

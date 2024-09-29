@@ -1,11 +1,11 @@
 # PayPal Webhooks Client for Laravel
 
-[![Packagist](https://badgen.net/packagist/v/ankurk91/laravel-paypal-webhooks)](https://packagist.org/packages/ankurk91/laravel-paypal-webhooks)
-[![GitHub-tag](https://badgen.net/github/tag/ankurk91/laravel-paypal-webhooks)](https://github.com/ankurk91/laravel-paypal-webhooks/tags)
-[![License](https://badgen.net/packagist/license/ankurk91/laravel-paypal-webhooks)](LICENSE.txt)
-[![Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-paypal-webhooks)](https://packagist.org/packages/ankurk91/laravel-paypal-webhooks/stats)
-[![GH-Actions](https://github.com/ankurk91/laravel-paypal-webhooks/workflows/tests/badge.svg)](https://github.com/ankurk91/laravel-paypal-webhooks/actions)
-[![codecov](https://codecov.io/gh/ankurk91/laravel-paypal-webhooks/branch/main/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-paypal-webhooks)
+[![Packagist](https://badgen.net/packagist/v/Tommmoe/laravel-paypal-webhooks)](https://packagist.org/packages/Tommmoe/laravel-paypal-webhooks)
+[![GitHub-tag](https://badgen.net/github/tag/Tommmoe/laravel-paypal-webhooks)](https://github.com/Tommmoe/laravel-paypal-webhooks/tags)
+[![License](https://badgen.net/packagist/license/Tommmoe/laravel-paypal-webhooks)](LICENSE.txt)
+[![Downloads](https://badgen.net/packagist/dt/Tommmoe/laravel-paypal-webhooks)](https://packagist.org/packages/Tommmoe/laravel-paypal-webhooks/stats)
+[![GH-Actions](https://github.com/Tommmoe/laravel-paypal-webhooks/workflows/tests/badge.svg)](https://github.com/Tommmoe/laravel-paypal-webhooks/actions)
+[![codecov](https://codecov.io/gh/Tommmoe/laravel-paypal-webhooks/branch/main/graph/badge.svg)](https://codecov.io/gh/Tommmoe/laravel-paypal-webhooks)
 
 Handle [PayPal](https://developer.paypal.com/api/rest/webhooks/) webhooks in Laravel php framework.
 
@@ -14,7 +14,7 @@ Handle [PayPal](https://developer.paypal.com/api/rest/webhooks/) webhooks in Lar
 You can install the package via composer:
 
 ```bash
-composer require "ankurk91/laravel-paypal-webhooks"
+composer require "Tommmoe/laravel-paypal-webhooks"
 ```
 
 The service provider will automatically register itself.
@@ -22,7 +22,7 @@ The service provider will automatically register itself.
 You must publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="Ankurk91\PayPalWebhooks\PayPalWebhooksServiceProvider"
+php artisan vendor:publish --provider="Tommmoe\PayPalWebhooks\PayPalWebhooksServiceProvider"
 ```
 
 Next, you must publish the migration with:

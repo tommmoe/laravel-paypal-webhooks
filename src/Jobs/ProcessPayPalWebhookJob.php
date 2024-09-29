@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Ankurk91\PayPalWebhooks\Jobs;
+namespace Tommmoe\PayPalWebhooks\Jobs;
 
-use Ankurk91\PayPalWebhooks\Exception\WebhookFailed;
+use Tommmoe\PayPalWebhooks\Exception\WebhookFailed;
 use Illuminate\Support\Str;
 use Spatie\WebhookClient\Jobs\ProcessWebhookJob;
 

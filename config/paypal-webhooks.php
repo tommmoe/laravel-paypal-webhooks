@@ -16,14 +16,14 @@ return [
 
     /*
     * The classname of the model to be used. The class should equal or extend
-    * \Ankurk91\PayPalWebhooks\Model\PayPalWebhookCall.
+    * \Tommmoe\PayPalWebhooks\Model\PayPalWebhookCall.
     */
-    'model' => \Ankurk91\PayPalWebhooks\Model\PayPalWebhookCall::class,
+    'model' => \Tommmoe\PayPalWebhooks\Model\PayPalWebhookCall::class,
 
     /**
      * This class determines if the incoming webhook call should be stored and processed.
      */
-    'profile' => \Ankurk91\PayPalWebhooks\PayPalWebhookProfile::class,
+    'profile' => \Tommmoe\PayPalWebhooks\PayPalWebhookProfile::class,
 
     /*
      * When disabled, the package will not verify if the signature is valid.
