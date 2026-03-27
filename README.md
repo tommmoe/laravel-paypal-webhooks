@@ -9,6 +9,11 @@
 
 Handle [PayPal](https://developer.paypal.com/api/rest/webhooks/) webhooks in Laravel php framework.
 
+## Requirements
+
+- PHP 8.2 or higher
+- Laravel 10, 11, or 12
+
 ## Installation
 
 You can install the package via composer:
